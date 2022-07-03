@@ -1,3 +1,5 @@
+Kata <6 kyu>
+
 Isograms
 
 An isogram (also known as a "nonpattern word") is a logological term for a word or phrase without a repeating letter.
