@@ -1,0 +1,39 @@
+Isograms
+
+An isogram (also known as a "nonpattern word") is a logological term for a word or phrase without a repeating letter.
+
+Isograms can be useful as keys in ciphers, since isogram sequences of the same length make for simple one-to-one mapping between the symbols.
+Ten-letter isograms like PATHFINDER, DUMBWAITER, and BLACKHORSE are commonly used by salespeople of products,
+where the retail price is typically negotiated, such as used cars, jewelry, or antiques.
+
+For example, using the PATHFINDER cipher, P represents 1, A represents 2 and so on. 
+The price tag for an item selling for $1200 may also bear the cryptic letters FRR, written on the back or bottom of the tag. 
+A salesman familiar with the PATHFINDER cipher will know that the original cost of the item was $500.
+
+(source link: https://en.wikipedia.org/wiki/Isogram)
+
+Task
+Complete the functions, in order to encode/decode the input numbers/codes with the provided isogram keys. 
+Note: the key is case-insensitive (it may be upper- or lowercase).
+
+For the input, you should accept numbers in integer or string format (encode function), or a string (decode function).
+
+Return the result as an uppercase string.
+
+If the provided input and/or key is incorrect, empty or missing, return 'Incorrect key or input!'
+
+Examples:
+
+ 500,  "PATHFINDER"  -->  "FRR"
+"500", "PATHFINDER"  -->  "FRR"
+"FRR", "PATHFINDER"  -->  "500"
+ 500,  "PATHFIND"    -->  "Incorrect key or input!"
+ 500,  "PATHFINDEE"  -->  "Incorrect key or input!"
+"LOL", "PATHFINDER"  -->  "Incorrect key or input!"
+
+See some more examples in the sample tests (Link to Kata).
+
+Link to Kata:
+https://www.codewars.com/kata/58fbc832e86f5e905300007f/train/python
+
+by Anter69
